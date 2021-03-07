@@ -1,0 +1,40 @@
+.contact {
+  p {
+    margin-bottom: 0;
+  }
+
+  .section-heading {
+    margin-bottom: 30px;
+
+    .subtitle {
+      padding-left: 20px;
+    }
+  }
+
+  a {
+    color: $black !important;
+
+    &:hover {
+      color: $brand-green !important;
+    }
+  }
+
+  .contact-item {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    .subtitle {
+      i {
+        color: $brand-green;
+        margin-right: 4px;
+      }
+    }
+
+    .value {
+      font-weight: bold;
+      color: $black;
+    }
+  }
+}
